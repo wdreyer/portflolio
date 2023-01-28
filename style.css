@@ -41,7 +41,7 @@ letter-spacing: 20px;
 @media only screen and (max-width: 400px) {
   .loader {
     font-size: 30px; /*diminution de la taille de la police */
-    letter-spacing: 0px; /*diminution de l'espacement entre les lettres*/
+    letter-spacing: 5px; /*diminution de l'espacement entre les lettres*/
     
   }
 }
