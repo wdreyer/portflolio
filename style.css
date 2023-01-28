@@ -22,12 +22,12 @@ animation-iteration-count: 1;
 display : flex;
 flex-wrap: wrap;
 align-content: center;
-letter-spacing: 20px;  
+letter-spacing: 15px;  
 }
 @media only screen and (max-width: 800px) {
   .loader {
     font-size: 50px; /*diminution de la taille de la police */
-    letter-spacing: 15px; /*diminution de l'espacement entre les lettres*/
+    letter-spacing: 10px; /*diminution de l'espacement entre les lettres*/
     
   }
   #dev{
@@ -38,21 +38,21 @@ letter-spacing: 20px;
 @media only screen and (max-width: 600px) {
   .loader {
     font-size: 40px; /*diminution de la taille de la police */
-    letter-spacing: 10px; /*diminution de l'espacement entre les lettres*/
+    letter-spacing: 6px; /*diminution de l'espacement entre les lettres*/
     
   }
   #dev{
-    margin-left: 10px;
+    margin-left: 0px;
   
   }
 }
 @media only screen and (max-width: 400px) {
   .loader {
     font-size: 30px; /*diminution de la taille de la police */
-    letter-spacing: 5px; /*diminution de l'espacement entre les lettres*/
+    letter-spacing: 2px; /*diminution de l'espacement entre les lettres*/
   }
   #dev{
-    margin-left: 5px;
+    margin-left: 0px;
   }
 
 }
