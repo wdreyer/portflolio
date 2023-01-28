@@ -30,6 +30,10 @@ letter-spacing: 20px;
     letter-spacing: 15px; /*diminution de l'espacement entre les lettres*/
     
   }
+  #dev{
+    margin-left: 20px;
+  
+  }
 }
 @media only screen and (max-width: 600px) {
   .loader {
@@ -37,13 +41,20 @@ letter-spacing: 20px;
     letter-spacing: 10px; /*diminution de l'espacement entre les lettres*/
     
   }
+  #dev{
+    margin-left: 10px;
+  
+  }
 }
 @media only screen and (max-width: 400px) {
   .loader {
     font-size: 30px; /*diminution de la taille de la police */
     letter-spacing: 5px; /*diminution de l'espacement entre les lettres*/
-    
   }
+  #dev{
+    margin-left: 5px;
+  }
+
 }
 
 
