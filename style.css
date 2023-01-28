@@ -21,6 +21,14 @@ font-weight: bold;
 animation: color-animation 1s ease-in-out forwards;
 animation-iteration-count: 1;
 
+@media only screen and (max-width: 600px) {
+  .loader {
+    font-size: 40px; /*diminution de la taille de la police */
+    letter-spacing: 20px; /*diminution de l'espacement entre les lettres*/
+    flex-wrap: wrap; /*permet de passer sur 2 lignes */
+  }
+}
+
 }
 .letter{
     font-family: 'Raleway', sans-serif;
