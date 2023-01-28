@@ -5,3 +5,4 @@ letters.forEach(function(letter) {
   letter.style.animationDelay = delay + "s";
   delay += 0.5;
 });
+

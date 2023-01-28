@@ -16,21 +16,38 @@ display: flex;
 align-items: center;
 justify-content: center;
 font-size: 60px;
-letter-spacing: 30px;
 font-weight: bold;
 animation: color-animation 1s ease-in-out forwards;
 animation-iteration-count: 1;
-
+display : flex;
+flex-wrap: wrap;
+align-content: center;
+letter-spacing: 20px;  
+}
+@media only screen and (max-width: 800px) {
+  .loader {
+    font-size: 50px; /*diminution de la taille de la police */
+    letter-spacing: 15px; /*diminution de l'espacement entre les lettres*/
+    
+  }
+}
 @media only screen and (max-width: 600px) {
   .loader {
     font-size: 40px; /*diminution de la taille de la police */
-    letter-spacing: 20px; /*diminution de l'espacement entre les lettres*/
-    flex-wrap: wrap; /*permet de passer sur 2 lignes */
+    letter-spacing: 10px; /*diminution de l'espacement entre les lettres*/
+    
   }
 }
 
+
+
+#dev{
+  margin-left: 30px;
+
 }
+
 .letter{
+    
     font-family: 'Raleway', sans-serif;
     font-stretch: expanded;
     animation: color-change 0.5s;
