@@ -38,6 +38,14 @@ letter-spacing: 20px;
     
   }
 }
+@media only screen and (max-width: 300px) {
+  .loader {
+    font-size: 30px; /*diminution de la taille de la police */
+    letter-spacing: 5px; /*diminution de l'espacement entre les lettres*/
+    
+  }
+}
+
 
 
 
