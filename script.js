@@ -6,10 +6,3 @@ letters.forEach(function(letter) {
   delay += 0.2;
 });
 
-const footerDiv = document.querySelector('.footer-div');
-
-setTimeout(function() {
-  if (!footerDiv.classList.contains('visible')) {
-    footerDiv.classList.add('visible');
-  }
-}, 1500);
