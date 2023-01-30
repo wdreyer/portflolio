@@ -3,10 +3,12 @@
 * {
   padding: 0;
   margin: 0;
+  padding-top : 2px;
+  padding-bottom : 2px ;
   font-family: "Raleway", sans-serif;
 }
 
-.Main {
+main {
   background-color: black;
   color: white;
   display: grid;
@@ -25,13 +27,10 @@
   align-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-top: 10px;
+  margin-top: 40px;
 }
-
-#toparrow {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  padding-right: 13px;
+.arrow {
+  width: 60px;
 }
 
 #center {
@@ -48,7 +47,6 @@
   animation: color-animation 1s ease-in-out forwards;
   animation-iteration-count: 1;
   display: flex;
-  align-content: center;
   letter-spacing: 15px;
 }
 
@@ -69,6 +67,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
+  margin-left: 1Opx;
 }
 #rightside {
   grid-column-start: 3;
@@ -80,12 +79,13 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
+  margin-right:10px;
 }
 
 #footer {
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 3;
+  grid-row-start: 4;
   grid-row-end: 4;
   display: flex;
   justify-content: centr;
@@ -109,10 +109,11 @@
   position: relative;
   transition: all 4s ease-in-out;
   animation: drop 4s ease-in-out;
+  margin-bottom : 40px ;
 }
 @keyframes drop {
   from {
-    top: -100%;
+    top: -200%;
     opacity: 0;
   }
   to {
@@ -167,9 +168,9 @@
   }
 }
 
-#arrows {
+#arrow {
   margin-top: 5px;
-  width: 8%;
+  width: 50px;
 }
 
 @keyframes color-change {
@@ -182,7 +183,7 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   #center {
     font-size: 50px; /*diminution de la taille de la police */
     letter-spacing: 10px; /*diminution de l'espacement entre les lettres*/
