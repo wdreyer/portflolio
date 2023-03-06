@@ -5,10 +5,9 @@
 }
 body {
   background-color: white;
-max-height: 100vh;
-height: 100vh;
-overflow: hidden;
-
+  max-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
 }
 main{
   color: white;
@@ -66,7 +65,42 @@ h1{
 
 
 }
+/* Style de la modale */
+.modal {
+  display: none; /* Cachez la modale par défaut */
+  position: fixed; /* Position fixe pour la modale */
+  z-index: 1; /* Mettez la modale en haut de la pile */
+  left: 0;
+  top: 0;
+  width: 100%; /* Largeur de la modale */
+  height: 100%; /* Hauteur de la modale */
+  overflow: auto; /* Ajoutez le défilement si nécessaire */
+  background-color: rgba(0,0,0,0.4); /* Fond noir semi-transparent */
+}
 
+/* Contenu de la modale */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% du haut et centré horizontalement */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Largeur du contenu de la modale */
+}
+
+/* Bouton de fermeture */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
 
